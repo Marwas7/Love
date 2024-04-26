@@ -1,0 +1,494 @@
+@font-face {
+  font-family: MuseoModerno;
+  src: url("./font/MuseoModerno.ttf");
+}
+
+@font-face {
+  font-family: MontserratLight;
+  src: url("./font/Montserrat-Light.ttf");
+}
+
+@font-face {
+  font-family: Homoarakhn;
+  src: url("./font/Homoarakhn\ Cyrillic\ Regular.ttf");
+}
+
+@font-face {
+  font-family: ComforterBrush;
+  src: url("./font/ComforterBrush-Regular.ttf");
+}
+
+@font-face {
+  font-family: Ostrovsky-Bold;
+  src: url("./font/Ostrovsky-Bold_0.otf");
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.page_1 {
+  display: flex;
+  flex-direction: column;
+  background-image: url("./img/Mesh\ 8.jpg");
+  height: 845px;
+  background-position: center center;
+  padding: 20px 50px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.title_page_1 {
+  font-family: MontserratLight;
+  font-size: 70px;
+  color: rgb(0, 0, 0);
+  align-self: center;
+  margin-top: 300px;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  color: rgb(0, 0, 0);
+}
+
+.title_logo {
+  font-family: MuseoModerno;
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 20px;
+}
+
+.desc_logo {
+  font-family: MontserratLight;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.menu {
+  color: rgb(0, 0, 0);
+  display: flex;
+}
+
+.menu i {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.desc_icon {
+  font-family: MontserratLight;
+  margin-top: 5px;
+  font-size: 12px;
+}
+
+.number {
+  display: flex;
+  font-size: 20px;
+  font-family: MontserratLight;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.social_icon {
+  display: flex;
+  flex-direction: column;
+  margin-top: 100px;
+  color: rgb(0, 0, 0);
+}
+
+.social_icon i {
+  font-size: 26px;
+  margin: 10px 15px;
+}
+
+.desc_social_icon {
+  font-family: MontserratLight;
+  letter-spacing: 3px;
+}
+.number_on {
+  display: none;
+  /* display: flex; */
+  font-size: 20px;
+  font-family: MontserratLight;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+@media screen and (max-width: 375px) {
+  .title_logo {
+    font-family: MuseoModerno;
+    font-size: 15px;
+    letter-spacing: 10px;
+  }
+  .page_1 {
+    padding: 20px 0px 5px 14px;
+    height: 100%;
+  }
+  .desc_logo {
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .number {
+    display: none;
+  }
+  .icon {
+    margin-right: 14px !important;
+  }
+  .title_page_1 {
+    font-size: 15px;
+    font-weight: 600;
+    margin: 50px 14px 0 0;
+    letter-spacing: 0.2px;
+  }
+  .number_on {
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+    font-size: 10px;
+  }
+  .social_icon {
+    margin-top: 50px;
+  }
+  .social_icon i {
+    font-size: 14px;
+    margin: 5px;
+  }
+  .desc_social_icon {
+    font-size: 10px;
+    letter-spacing: 1px;
+  }
+  .number_on i {
+    margin-right: 2px !important;
+  }
+}
+/* **************************** PAGE 2 **************************** */
+
+.page_2 {
+  background-color: rgb(248, 181, 131);
+  padding: 120px 80px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content_page_2 p {
+  font-family: MontserratLight;
+  width: 700px;
+  font-size: 36px;
+  margin-bottom: 20px;
+  color: rgba(134, 14, 24, 1);
+}
+
+.page_2 img {
+  width: 548px;
+  margin-bottom: 50px;
+}
+
+.content_page_2 {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 375px) {
+  .content_page_2 p {
+    width: 161px;
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  .page_2 {
+    padding: 20px 10px 0 14px;
+  }
+  .page_2 img {
+    width: 187px;
+    margin-top: 20px;
+  }
+}
+.text {
+  font-family: MontserratLight;
+  width: 300px;
+  font-size: 48px;
+  width: 100%;
+  text-align: justify;
+  color: rgba(134, 14, 24, 1);
+  letter-spacing: 10px;
+}
+
+.page_2 button {
+  padding: 15px;
+  width: 334px;
+  font-size: 36px;
+  font-weight: 300;
+  letter-spacing: 10px;
+  background-color: rgba(236, 104, 122, 1);
+  border-radius: 120px;
+  color: white;
+  border: 1px solid rgba(234, 71, 24, 1);
+  margin-top: 50px;
+  align-self: center;
+}
+@media screen and (max-width: 375px) {
+  .text {
+    width: 100%;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin: 0px 0 10px 0 !important;
+  }
+  .page_2 button {
+    padding: 5px;
+    width: 114px;
+    height: 26px;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 30px !important;
+  }
+  .but_2 {
+    margin-top: 30px !important;
+  }
+}
+.look_foto {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 150px 0 100px 0;
+}
+
+.look_foto img {
+  width: 573px;
+  border-radius: 60px;
+  margin-bottom: 150px;
+}
+
+.block_img img {
+  width: 468px;
+  margin: 5px;
+}
+
+.block_img {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  align-self: center;
+  font-size: 32px;
+  font-family: MontserratLight;
+  text-align: center;
+}
+
+.block_reviews {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+.price {
+  position: relative;
+}
+.text_pr,
+.text_pr2,
+.text_pr3 {
+  bottom: 30px;
+  left: 180px;
+  position: absolute;
+}
+@media screen and (max-width: 375px) {
+  .block_img img {
+    width: 254px;
+    margin: 5px;
+  }
+  .block_img {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    align-self: center;
+    font-size: 32px;
+    font-family: MontserratLight;
+    text-align: center;
+    justify-content: center;
+  }
+  .text_pr {
+    bottom: 30px;
+    left: 100px;
+    position: absolute;
+    font-size: 20px;
+  }
+  .text_pr2 {
+    bottom: 30px;
+    left: 60px !important;
+    position: absolute;
+    font-size: 20px;
+  }
+  .text_pr3 {
+    bottom: 30px;
+    left: 50px !important;
+    position: absolute;
+    font-size: 20px;
+  }
+  .text_2 {
+    letter-spacing: 3px;
+  }
+  .look_foto img {
+    width: 277px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+  }
+  .look_foto {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 0 0px 0;
+  }
+  .block_reviews {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    align-items: center;
+  }
+}
+.reviews {
+  /* position: ; */
+  /* border: 1px solid rgba(192, 192, 192, 0.747); */
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  align-items: center;
+  text-align: justify;
+  margin: 30px;
+  padding: 20px 40px;
+  background-color: rgba(242, 212, 137, 1);
+  /* height:  100%; */
+  font-family: MontserratLight;
+  position: relative;
+}
+
+.reviews img {
+  width: 155px;
+  margin-bottom: 20px;
+  position: absolute;
+  top: -80px;
+}
+
+.text_reviews {
+  /* width: 360px; */
+  height: 323px;
+  padding: 60px 0 50px 0px;
+  font-size: 18px;
+}
+
+.stars {
+  display: flex;
+  margin-top: auto;
+  align-self: flex-start;
+}
+
+.stars i {
+  font-size: 32px;
+  color: rgba(204, 255, 0, 1);
+}
+@media screen and (max-width: 375px) {
+  .text3 {
+    font-size: 20px;
+  }
+  .block_reviews {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    padding: 0 !important;
+    margin-bottom: 50px;
+  }
+  .reviews_off{
+    display: none;
+  }
+  .reviews img {
+    width: 113px;
+    margin-bottom: 20px;
+    position: absolute;
+    top: -80px;
+  }
+  .reviews{
+    width: 272px;
+    height: 100%;
+    margin: 0;
+  }
+  .text_reviews{
+    height: 100%;
+    padding-top: 40px;
+  }
+  .stars i {
+
+    font-size: 24px;
+  }
+  .strelka{
+    width: 15px !important;
+    height: 15px !important;
+  }
+  .poz1{
+    left: -30px !important;
+    top: 100px !important;
+  }
+  .poz2{
+    right: -30px !important;
+    top: 100px !important;
+  }
+}
+/* ****************************************** */
+footer {
+  display: flex;
+  padding: 20px 200px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.side ul {
+  display: flex;
+  flex-direction: column;
+  font-family: MontserratLight;
+  list-style: none;
+}
+
+.side li {
+  margin-bottom: 15px;
+}
+
+.side li:hover {
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+@media screen and (max-width: 375px) {
+  .side ul {
+   font-size: 11px;
+  }
+  footer {
+    display: flex;
+    padding: 20px 14px;
+    justify-content:left;
+    /* flex-wrap: wrap; */
+  }
+  .side2{
+    margin-left: 140px;
+    /* align-self: ; */
+  }
+  .side li {
+    margin-bottom: 5px;
+  }
+  .mb{
+    margin-bottom: 20px !important;
+  }
+  .mb2{
+    margin-top: 20px;
+  }
+}

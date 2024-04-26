@@ -1,0 +1,99 @@
+@font-face {
+  font-family: MontserratLight;
+  src: url("./font/Montserrat-Light.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  /* justify-content: center; */
+}
+
+.wrapp {
+  padding: 50px 0 0 100px;
+  display: flex;
+  width: 1353px;
+  background-color: rgb(248, 181, 131);
+  height: 687px;
+}
+
+.title_page {
+  font-family: MontserratLight;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+
+.delivery {
+  margin-bottom: 30px;
+}
+
+.titleStrelka {
+  display: flex;
+  align-items: center;
+}
+
+.title {
+  font-family: MontserratLight;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.titleStrelka img {
+  margin-left: 20px;
+}
+
+.desc {
+  font-family: MontserratLight;
+  font-size: 26px;
+  margin-bottom: 20px;
+  width: 550px;
+}
+@media screen and (max-width: 375px) {
+  .wrapp {
+    padding: 19px 0 0 34px;
+    width: 375px;
+    height: 100%;
+  }
+  .title_page {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 30px;
+    width: 300px;
+  }
+  .title {
+    font-family: MontserratLight;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .desc {
+    font-family: MontserratLight;
+    font-size: 15px;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+  .titleStrelka img {
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+  }
+  .desc {
+    font-size: 15px !important;
+  }
+  .pad{
+    padding: 0 !important;
+  }
+  .online{
+font-size: 18px !important;
+  }
+  .desc_online{
+    font-size: 15px !important;
+  }
+}
